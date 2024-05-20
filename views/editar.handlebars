@@ -1,0 +1,16 @@
+<h1>Alterar dados</h1>
+<div>
+<form action="/curso/update" method="POST">
+<input type="hidden" value="{{curso.id}}" name="id">
+
+<input type="text" name="nome"  value="{{curso.nome}}">
+<input type="number"  name="duracao" value="{{curso.duracao}}">
+
+<input type="submit" value="Salvar"> 
+</div>
+
+<div class="voltar">
+    <a href="/" class="ver">Voltar</a>
+</div>
+
+</form>

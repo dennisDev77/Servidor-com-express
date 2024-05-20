@@ -1,0 +1,28 @@
+<h1>Cursos Disponiveis</h1>
+
+<div class="ver-curso">
+
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Nome</td>
+        <td>Duracao</td>
+    </tr>
+
+{{#each curso}}
+    <tr>
+
+        <td>{{this.id}}</td>
+        <td> <a href="/curso/ver/{{this.id}}">{{this.nome}}</a></td>
+        <td> {{this.duracao}} horas</td>
+    </tr>
+    {{/each}}
+</table>
+</div>
+
+
+
+<div class="voltar">
+    <a href="/" class="ver">Voltar</a>
+</div>

@@ -1,0 +1,61 @@
+body{
+    background: rgb(21, 21, 31);
+}
+h1{
+  color: rgb(182, 112, 247);
+  text-align: center;
+}
+
+div.nav{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.cadastrar,.ver{
+    text-decoration: none;
+    text-align: center;
+    transform: scale(1.05);
+    padding: 12px 14px;
+    border-radius:10px;
+    background-color:rgb(182, 112, 247) ;
+    color: white;
+    margin-inline: 10px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    
+}
+form input{
+    padding: 10px;
+    color: rgb(182, 112, 247);
+    font-size: 12pt;
+}
+div.voltar{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+div.ver-curso{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px;
+    font: 14pt arial normal;
+}
+
+div.ver-curso td{
+  padding: 10px;
+  background-color:rgb(165, 151, 179);
+}
+div.ver-curso a{
+  font-size: 16pt;
+  text-decoration: none;
+}
+
