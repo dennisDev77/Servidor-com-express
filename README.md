@@ -6,4 +6,4 @@ com a tabela cursos.
 
 1.VS Code \
 2.Mysql \
-3.Xamp \
+3.Xamp 
